@@ -1,0 +1,830 @@
+              /*header*/
+nav ul
+    {
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+    font-size: 25px;
+   	background-color: rgba(255,255,255,0.4);
+    }
+nav li
+      {
+        display: inline-block;
+        width: 160px;
+        height: 80px;
+        margin:0px;
+        padding:0px;
+        line-height: 80px;
+      }
+
+nav li :hover
+             {
+              color: red;
+             }
+
+nav li a
+        {
+          display: block;
+          text-decoration: none;
+          color:#FC6E1C;
+        }
+
+
+.oc-logo-btp{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  margin-top: -58px;
+  margin-left: 175px;
+
+}
+.headermenuiserie{
+
+}
+        /*fin header*/
+
+        /*acceuile*/
+         /*BODY ACCUEIL*/
+
+  @import url(https://fonts.googleapis.com/css?family=Arvo:700);
+  @import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
+  body {
+    background-color: rgba(194, 132, 55, 1);
+  }
+  .plate {
+    width: 410px;
+    margin: 10% auto;
+  }
+  .shadow {
+    color: #fff;
+    font-family: Arvo;
+    font-weight: bold;
+    text-shadow:
+      -3px -3px 0 #222,
+      3px -3px 0 #222,
+      -3px 3px 0 #222,
+      3px 3px 0 #222,
+      4px 4px 0 #fff,
+      5px 5px 0 #fff,
+      6px 6px 0 #fff,
+      7px 7px 0 #fff;
+    line-height: 0.8em;
+    letter-spacing: 0.1em;
+    transform: scaleY(0.7);
+    -webkit-transform: scaleY(0.7);
+    -moz-transform: scaleY(0.7);
+    margin:0;
+    text-align: center;
+  }
+  .script {
+    font-family: "Seaweed Script";
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    margin:0;
+  }
+  .script span {
+    background-color: rgba(136, 105, 23, 1);
+    padding: 0 0.3em;
+  }
+  .script:before {
+    content:"";
+    display: block;
+    position: absolute;
+    z-index:-1;
+    top: 50%;
+    width: 100%;
+    border-bottom: 3px solid #fff;
+  }
+  .text1 {
+    font-size: 40px;
+  }
+  .text2 {
+    font-size: 89px;
+  }
+  .text3 {
+    font-size: 50px;
+  }
+
+
+
+
+
+/*fin header*/
+p, h1, h3, li, ul {
+  font-family: 'Sriracha', cursive;
+}
+
+p, h1 {
+  color: white;
+}
+
+/*fin accueil*/
+
+/*presentation patron*/
+#fondfix1{
+  background-image: url('patronmenuiserie.jpg');
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#arbody1{
+background-color: rgba(217, 154, 22, 0.5);
+background-repeat: no-repeat;
+background-size: cover; ;
+margin:0%;
+background-attachment: fixed;
+}
+
+.arimgp{
+border-radius: 19px 120px;
+animation:
+
+}
+#arlocaux{
+display: flex;
+justify-content: space-around;
+
+}
+#artext{
+  display: flex;
+  justify-content: center;
+
+}
+
+#logomonbeaumeuble{
+position: absolute;
+height: 40px;
+width: 30px;
+
+}
+
+.arh1{
+display: flex;
+justify-content: center;
+}
+
+#arp2{
+text-align: center;
+
+}
+
+/*fin presentation patron*/
+
+/*entreprise presentation*/
+
+#arbody1 {
+  background: url('presentationfondTS.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#logomonbeaumeuble {
+  position: absolute;
+  height: 40px;
+  width: 30px;
+}
+
+.arh1 {
+  display: flex;
+  justify-content: center;
+}
+
+#arp2 {
+  text-align: center;
+}
+
+#arlocaux {
+  background-image: url('présentationentreprise3.jpg');
+
+  display: flex;
+  padding-left: 500px;
+}
+
+#ararmagedon {
+  background-image: url('maisonbois2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#arcontenaire {
+  background-image: url('présentationentreprise.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*fin entreprise presentation*/
+
+
+
+
+              /*partie realisation*/
+
+.ar-body-realisation
+                    {
+                      margin:0px;
+                       background-image: url(http://www.atelier-rg.com/wp-content/uploads/2016/02/mt-sample-background.jpg);
+                       background-size: cover;
+                       background-repeat: no-repeat;
+                    }
+.ar-h2-realisation{
+	color:#FC6E1C;
+	font-size: 31px;
+}
+.ar-h1-realisation
+                  {
+                    margin-bottom: 5%;
+                    text-align: center;
+                    color:#ffbca4;
+                  }
+.ar-section-realisation
+                       {
+                        display: flex;
+                        flex-direction: column;
+                       }
+
+.ar-article-realisation1
+                      {
+
+                        width: 70%;
+                        margin: auto;
+                        height: 250px;
+                        border: ridge;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                      }
+.ar-h1-realisation
+                   {
+                    border-top: solid 1px #FC6E1C;
+                     border-bottom: solid 1px #FC6E1C;
+                   }
+.ar-text-realisation1
+                     {
+                      color:#ffdfd3;
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      display: flex;
+                      width: 30%;
+                      margin-bottom: 5%;
+                     }
+.ar-foto1
+          {
+            width: 200px;
+            height:200px;
+          }
+
+.ar-foto2:hover .ar-foto1
+               {
+                display: none;
+               }
+
+.ar-foto2
+         {display: none;
+          width: 200px;
+          height: 200px;
+          margin-bottom: 2%;
+
+         }
+.ar-text-realisation2
+                     {
+                      color:#ffdfd3;
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      display: flex;
+                      width: 30%;
+                      margin-bottom: 5%;
+                      font-size: 22px;
+                     }
+
+.ar-effet1-realisation:hover .ar-foto1
+                       {
+                         display: none;
+                       }
+.ar-effet1-realisation:hover .ar-foto2
+                                      {
+                                        display: block;
+                                      }
+.ar-foto2:hover
+                       {
+                     -webkit-transform: scale(2.3);
+                     transform: scale(2.3);
+                       }
+
+                       /*maconnerie*/
+
+.ar-article-realisation2
+                      {
+
+                        width: 70%;
+                        margin: auto;
+                        height: 250px;
+                        border: ridge;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                      }
+
+.ar-foto-macon1
+          {
+            width: 200px;
+            height:200px;
+          }
+
+.ar-foto-macon2:hover .ar-foto-macon1
+               {
+                display: none;
+               }
+
+.ar-foto-macon2
+         {display: none;
+          width: 200px;
+          height: 200px;
+          margin-bottom: 2%;
+
+         }
+
+.ar-effet-realisation2:hover .ar-foto-macon1
+                       {
+                         display: none;
+                       }
+.ar-effet-realisation2:hover .ar-foto-macon2
+                                      {
+                                        display: block;
+                                      }
+.ar-foto-macon2:hover
+                       {
+                     -webkit-transform: scale(2.3);
+                     transform: scale(2.3);
+                       }
+
+                       /*carreleur*/
+
+.ar-text-realisation3
+                     {
+                      color:#ffdfd3;
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      display: flex;
+                      width: 30%;
+                      margin-bottom: 5%;
+                      font-size: 22px;
+                     }
+
+
+
+
+.ar-article-realisation3
+                      {
+
+                        width: 70%;
+                        margin: auto;
+                        height: 250px;
+                        border: ridge;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                      }
+
+.ar-foto-carrelage-1
+          {
+            width: 200px;
+            height:200px;
+          }
+
+.ar-foto-carrelage2:hover .ar-foto-carrelage-1
+               {
+                display: none;
+               }
+
+.ar-foto-carrelage2
+         {display: none;
+          width: 200px;
+          height: 200px;
+          margin-bottom: 2%;
+
+         }
+
+.ar-effet-realisation3:hover .ar-foto-carrelage-1
+                       {
+                         display: none;
+                       }
+.ar-effet-realisation3:hover .ar-foto-carrelage2
+                                      {
+                                        display: block;
+                                      }
+.ar-foto-carrelage2:hover
+                       {
+                     -webkit-transform: scale(2.3);
+                     transform: scale(2.3);
+                       }
+
+                       /*peintre*/
+
+.ar-foto-peintre1
+          {
+            width: 200px;
+            height:200px;
+          }
+
+.ar-foto-peintre2:hover .ar-foto-peintre1
+               {
+                display: none;
+               }
+
+.ar-foto-peintre2
+         {display: none;
+          width: 200px;
+          height: 200px;
+          margin-bottom: 2%;
+
+         }
+
+.ar-effet-realisation3:hover .ar-foto-peintre1
+                       {
+                         display: none;
+                       }
+.ar-effet-realisation3:hover .ar-foto-peintre2
+                                      {
+                                        display: block;
+                                      }
+.ar-foto-peintre2:hover
+                       {
+                     -webkit-transform: scale(2.3);
+                     transform: scale(2.3);
+                       }
+          /*couvreur*/
+
+.ar-foto-couvreur1
+          {
+            width: 200px;
+            height:200px;
+          }
+
+.ar-foto-couvreur2:hover .ar-foto-couvreur1
+               {
+                display: none;
+               }
+
+.ar-foto-couvreur2
+         {display: none;
+          width: 200px;
+          height: 200px;
+          margin-bottom: 2%;
+
+         }
+
+.ar-effet-realisation3:hover .ar-foto-couvreur1
+                       {
+                         display: none;
+                       }
+.ar-effet-realisation3:hover .ar-foto-couvreur2
+                                      {
+                                        display: block;
+                                      }
+.ar-foto-couvreur2:hover
+                       {
+                     -webkit-transform: scale(2.3);
+                     transform: scale(2.3);
+                       }
+
+                              /*footer*/
+
+
+
+footer {
+  background-color: #5C5956;
+  margin: 0;
+}
+
+.oc-lien {
+  text-decoration: none;
+  color: white;
+}
+
+.jl-lien:hover {
+  text-decoration: none;
+  color: pink;
+}
+
+.oc-footer-navigation {
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  width: 100%;
+
+  padding-top: 10px;
+  justify-content: space-evenly;
+}
+
+.oc-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.oc-columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.oc-menu {
+  color: white;
+  margin-left: 35px;
+  font-family: 'Sriracha', cursive;
+  ;
+}
+
+.oc-nav2 {
+  margin: 0;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  font-family: "Montserrat-Regular";
+  font-size: 14px;
+}
+
+.oc-nav3 {
+  margin: 0;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  font-family: "Montserrat-Regular";
+  font-size: 14px;
+}
+
+.oc-h2-realisation {
+  color: #ffdfd3;
+}
+
+
+p, h1, h3, li, ul {
+  font-family: 'Sriracha', cursive;
+}
+
+p, h1 {
+  color: white;
+}
+
+
+
+/*deuxieme parti*/
+
+                /*partie contact*/
+                #ar-body-contact{
+    background: url(https://www.lejdc.fr/photoSRC/VVNUJ1paUTgIBhVOCRAHHQ4zRSkXaldfVR5dW1sXVA49/mardis-de-l-emploi-transmission-reussie-pour-le-menuisier-be_3769863.jpeg);
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+                          /*header*/
+nav ul
+    {
+    padding: 0px;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(255,255,255,0.4);
+    }
+nav li
+      {
+        display: inline-block;
+        width: 160px;
+        height: 80px;
+        margin:0px;
+        padding:0px;
+        line-height: 80px;
+      }
+
+nav li :hover
+             {
+              color: red;
+             }
+
+nav li a
+        {
+          display: block;
+          text-decoration: none;
+          color:#FC6E1C;
+        }
+        /*fin header*/
+              /*partie contact*/
+           /*partie contact*/
+                #ar-body-contact{
+    background: url(https://www.lejdc.fr/photoSRC/VVNUJ1paUTgIBhVOCRAHHQ4zRSkXaldfVR5dW1sXVA49/mardis-de-l-emploi-transmission-reussie-pour-le-menuisier-be_3769863.jpeg);
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+                          /*header*/
+nav ul
+    {
+    padding: 0px;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(255,255,255,0.4);
+    }
+nav li
+      {
+        display: inline-block;
+        width: 160px;
+        height: 80px;
+        margin:0px;
+        padding:0px;
+        line-height: 80px;
+      }
+
+nav li :hover
+             {
+              color: red;
+             }
+
+nav li a
+        {
+          display: block;
+          text-decoration: none;
+          color:#FC6E1C;
+        }
+        /*fin header*/
+              /*partie contact*/
+
+
+.ar-logo-btp
+            {
+              width: 60px;
+              height: 50PX;
+            }
+
+.contact{
+    margin: 0;
+    color: #5a484296;
+    font-size: 108px;
+    text-shadow: #FC0 1px 0 10px;
+}
+.submit{
+    color: #E91E63;
+    background-color: transparent;
+    background-image: none;
+    border-color: #28a745;
+    height: 65px;
+    width: 168px;
+    margin-left: 154px;
+    font-size: 18px;
+}
+label{
+    font-size: 23px;
+    color: #FFAA23;
+    font-weight: bold;
+    background-color: peru;
+}
+.input-contact{
+    background-color: #ff936c52;
+    color: black;
+    font-size: 14px;
+}
+::placeholder {
+  color: black;
+  font-weight : bold;
+  }
+
+
+.ar-section-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+
+                   }
+.ar-article1
+             {
+display: flex;
+    flex-direction: column;
+    overflow: auto;
+
+    border: solid black 2px;
+    background-color: #f5f2f1a8;
+    border-radius: 49px;
+
+             }
+.ar-div-contact1
+                {
+                 display: flex;
+                 flex-direction: column;
+
+                }
+.ar-div-contact2
+                {
+                 display: flex;
+                 flex-direction: column;
+                 margin-top: 5%;
+                }
+
+              /*partie realisation*/
+
+.ar-body-realisation
+                    {
+                      margin:0px;
+                       background-image: url(https://img.hebus.com/hebus_2008/02/24/preview/080224130345_94.jpg);
+                       background-size: cover;
+                       background-repeat: no-repeat;
+                    }
+.ar-h1-realisation
+                  {
+                    margin-bottom: 5%;
+                    text-align: center;
+                  }
+.ar-section-realisation
+                       {
+                        display: flex;
+                        flex-direction: column;
+                       }
+
+.ar-article-realisation1
+                      {
+
+                        width: 70%;
+                        margin: auto;
+                        height: 250px;
+                        border: ridge;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                      }
+.ar-h1-realisation
+                   {
+                    border-top: solid 1px #FC6E1C;
+                     border-bottom: solid 1px #FC6E1C;
+                   }
+.ar-text-realisation1
+                     {
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      display: flex;
+                      width: 30%;
+                      margin-bottom: 5%;
+                     }
+.ar-foto1
+          {
+            width: 200px;
+            height:200px;
+          }
+
+.ar-foto2:hover .ar-foto1
+               {
+                display: none;
+               }
+
+.ar-foto2
+         {display: none;
+          width: 200px;
+          height: 200px;
+          margin-bottom: 2%;
+
+         }
+.ar-text-realisation2
+                     {
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      display: flex;
+                      width: 30%;
+                      margin-bottom: 5%;
+                     }
+
+.ar-effet1-realisation:hover .ar-foto1
+                       {
+                         display: none;
+                       }
+.ar-effet1-realisation:hover .ar-foto2
+                                      {
+                                        display: block;
+                                      }
+.ar-foto2:hover
+                       {
+                     -webkit-transform: scale(2.3);
+                     transform: scale(2.3);
+                       }
